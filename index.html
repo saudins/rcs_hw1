@@ -1,53 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="app.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Lato|Droid+Sans">
-    <title>RCS HW#1</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Scratching</title>
 </head>
+
 <body>
-    <header>
-        <nav class="topnav">
-            <a class="active" href="#">Sākums</a>
-            <a href="#more">Kas ir tas</a>
-            <a href="#unordered">Nekārtots saraksts</a>
-            <a href="#ordered">Sakārtots saraksts</a>
-            <a href="#gallery">Galerija</a>
-        </nav>
-    </header>
-    <main>
-        <h1>Hello. This is my first homework!</h1><br>
-        <img src="" alt="hero image"><br>
-        <p>Some intro text here with <a href="https://developer.mozilla.org/en-US/" target="_blank">link to external page in a new tab</a></p>
-        <h2 id="more">More information</h2>
-        <p>Intro text in second paragrapfh</p>
-        <ul id="unordered">
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-            <li>5</li>
-        </ul>
-        <p>Some more info</p>
-        <ol id="ordered">
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-            <li>5</li>
-        </ol>
-        <h2 id="gallery">Gallery</h2>
-        <p>Some text about galery</p><br>
-        <img src="" alt="first image">
-        <img src="" alt="second image">
-        <img src="" alt="third image">
-    </main>
-    <footer>
-        <a href="#">Uz augšu</a>
-        <p>&copy; 2020</p>
-    </footer>
+    <div>
+        <header>
+            <nav class="navigation-bar">
+                    <div class="header-right">
+                        <a class="active" href="#">Home</a>
+                        <a href="#what">Scratching</a>
+                        <a href="#history">History</a>
+                        <a href="#djs">DJs</a>
+                        <a href="#techniques">Techniques</a>
+                        <a href="#gallery">Gallery</a>
+                    </div>
+            </nav>
+        </header>
+        <main>
+            <img id="heroimage" src="images/vinyldjspin.jpg" alt="hero image">
+            <h1 id="what">Scratching</h1>
+            <h2>What is Scratching?</h2>
+            <p>Scratching, sometimes referred to as scrubbing, is a DJ and turntablist technique of moving a vinyl record
+                back and forth on a turntable to produce percussive or rhythmic sounds. A crossfader on a DJ mixer may be
+                used to fade between two records simultaneously.</p>
+            <h2 id="history">History</h2>
+            <p>Scratching was developed by early hip hop DJs from New York City such as Grand Wizard Theodore, who described
+                scratching as, "nothing but the back-cueing that you hear in your ear before you push it [the recorded
+                sound] out to the crowd."[7] He developed the technique when experimenting with the Technics SL-1200, a
+                direct-drive turntable released by Matsushita in 1972, when he found that the motor would continue to spin
+                at the correct RPM even if the DJ wiggled the record back and forth on the platter. Afrika Bambaataa made a
+                similar discovery with the SL-1200 in the 1970s. The Technics SL-1200 went on to become the most widely used
+                turntable for the next several decades.</p>
+            <h2 id="djs">Best DJs Who Can Scratch of All Time</h2>
+            <ul>
+                <li>DJ Qbert</li>
+                <li>Grandmaster Flash</li>
+                <li>Jam Master Jay</li>
+                <li>DJ Scratch</li>
+                <li>DJ Jazzy Jeff</li>
+                <li>DJ Babu</li>
+                <li>DJ Premier</li>
+            </ul>
+            <h2 id="techniques">Scratching techniques</h2>
+            <p>There are many scratching techniques, which differ in how the movements of the record are combined with
+                opening and closing the crossfader (or another fader or switch, such as a <a
+                    href="https://en.wikipedia.org/wiki/Kill_switch" target="_blank">kill switch</a>, where "open" means
+                that the signal is audible, and "closed" means that the signal is inaudible).</p>
+            <ol id="ordered">
+                <li><strong>Baby scratch</strong> - The simplest scratch form, it is performed with the scratching hand
+                    only, moving the record back and forth in continuous movements while the crossfader is in the open
+                    position.</li>
+                <li><strong>Forward and backward scratch</strong> - The forward scratch, also referred to as scrubbing, is a
+                    baby scratch where the crossfader is closed during the backwards movement of the record. If the record
+                    is let go instead of being pushed forward it is also called "release scratch". Cutting out the forward
+                    part of the record movement instead of the backward part gives a "backward scratch".</li>
+                <li><a href="https://en.wikipedia.org/wiki/Turntablism#Tear" target="_blank"><strong>Tear
+                            scratch</strong></a> - Tear
+                    scratches are scratches where the record is moved in a staggered fashion, dividing the forward and
+                    backward movement into two or more movements. This allows creating sounds similar to "flare scratches"
+                    without use of the crossfader and it allows for more complex rhythmic patterns. The term can also refer
+                    to a simpler, slower version of the chirp.</li>
+                <li><strong>Scribble scratch</strong> - The scribble scratch is by rapidly pushing the record back and
+                    forth. The crossfader is not used.</li>
+                <li><a href="https://en.wikipedia.org/wiki/Turntablism#Chirp" target="_blank"><strong>Chirp
+                            scratch</strong></a> - The chirp
+                    scratch involves closing the crossfader just after playing the start of a sound, stopping the record at
+                    the same point, then pushing it back while opening the fader to create a "chirping" sound. When
+                    performed using a recording of drums, it can create the illusion of doubled scratching speed, due to the
+                    attack created by cutting in the crossfader on the backward movement.</li>
+            </ol>
+            <h2 id="gallery">Gallery</h2>
+            <h3>Photos</h3>
+            <div class="photo-container">
+                <div class="responsive">
+                    <div class="gallery">
+                        <a target="_blank" href="images/jam-master-jay_400_600.jpg">
+                            <img src="images/jam-master-jay_400_600.jpg" alt="jam master jay">
+                        </a>    
+                    </div>
+                    <div class="desc">
+                        <p>DJ Jam Master Jay</p>
+                    </div>
+                </div>
+                <div class="responsive">
+                    <div class="gallery">
+                        <a target="_blank" href="images/dj_qbert_400_600.jpg">
+                            <img src="images/dj_qbert_400_600.jpg" alt="dj qbert">
+                        </a>
+                    </div>
+                    <div class="desc">
+                        <p>DJ Qbert</p>
+                    </div>
+                </div>
+                <div class="responsive">
+                    <div class="gallery">
+                        <a target="_blank" href="images/DJ-Scratch_400_600.jpg">
+                            <img src="images/DJ-Scratch_400_600.jpg" alt="dj scratch">
+                        </a>
+                    </div>
+                    <div class="desc">
+                        <p>DJ Scratch</p>
+                    </div>
+                </div>
+                <div class="responsive">
+                    <div class="gallery">
+                        <a target="_blank" href="images/Grandmaster_Flash_400_600.jpg">
+                            <img src="images/Grandmaster_Flash_400_600.jpg" alt="grandmaster flash">
+                        </a>
+                    </div>
+                    <div class="desc">
+                        <p>DJ Grand Master Flash</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <h3>Videos</h3>
+            <div class="videos-container">
+                <div class="responsive-video">
+                    <div class="gallery">
+                        <iframe src="https://www.youtube.com/embed/kF0R6oHEYTs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="responsive-video">
+                    <div class="gallery">
+                        <iframe src="https://www.youtube.com/embed/XMjKoVHf4jw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="responsive-video">
+                    <div class="gallery">
+                        <iframe src="https://www.youtube.com/embed/a5vzhozQQkk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="responsive-video">
+                    <div class="gallery">
+                        <iframe src="https://www.youtube.com/embed/zW965UUinVc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>   
+        </main>
+        <footer>
+            <a href="#">Go up <i class="fa fa-chevron-circle-up"></i></a>
+            
+            <p>&copy; 2020</p>
+        </footer>
+    </div>
 </body>
 </html>
